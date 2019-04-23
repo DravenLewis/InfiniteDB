@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\MemoryBlock">
+      <UniqueIdentifier>{03b12211-dfc9-4077-8b38-2758afb3a38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MemoryBlock.h">
+      <UniqueIdentifier>{1c84dcf9-1a3c-4757-9f56-96b4438ba4ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MemoryBlock.cpp">
+      <Filter>Source Files\MemoryBlock</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryBlock.h">
+      <Filter>Header Files\MemoryBlock.h</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
