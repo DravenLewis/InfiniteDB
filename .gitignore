@@ -2,3 +2,8 @@
 *.dll
 *.mdf
 *.opendb
+*.pdb
+*.db
+*.ilk
+
+InfiniteDB/src/x86/win/InfiniteDB/Debug/
